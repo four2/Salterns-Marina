@@ -1,7 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <title>*|MC:SUBJECT|*</title>
 <style type="text/css">
 /* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
@@ -266,6 +267,11 @@ h4 {
 	/*@editable*/ border-top: 1px solid #F4F4F4;
 	/*@editable*/ border-bottom: 1px solid #CCCCCC;
 }
+
+.title {
+	/* [disabled]margin: 20px 80px !important; */
+}
+
 /**
 			* @tab Body
 			* @section body text
@@ -316,7 +322,7 @@ h4 {
 #templateColumnsTop {
 	/*@editable*/ background-color: #576979;
 	/*@editable*/ border-top: 1px solid #FFFFFF;
-	/*@editable*/ border-bottom: 1px solid #CCCCCC;
+	/*@editable*/ /* [disabled]border-bottom: 1px solid #CCCCCC; */
 }
 /**
 			* @tab Columns
@@ -615,10 +621,10 @@ h4 {
 									<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templatePreheader">
 										<tbody>
 											<tr>
-												<td valign="top" class="preheaderContent" style="padding-top:10px; padding-right:20px; padding-bottom:10px; padding-left:20px;" mc:edit="preheader_content00"> Swinging Moorings - Available 1st April to 31st October 2014. <br>
+												<td valign="top" class="preheaderContent" style="padding-top:10px; padding-right:20px; padding-bottom:10px; padding-left:20px;" mc:edit="preheader_content00"> Swinging Moorings - Available 1st April to 31st October 2014. <br />
 													75 Deep Water Swinging Moorings. Access via Salterns Marina.</td>
 												<!-- *|IFNOT:ARCHIVE_PAGE|* -->
-												<td valign="top" width="180" class="preheaderContent" style="padding-top:10px; padding-right:20px; padding-bottom:10px; padding-left:0;" mc:edit="preheader_content01"> Email not displaying correctly?<br>
+												<td valign="top" width="180" class="preheaderContent" style="padding-top:10px; padding-right:20px; padding-bottom:10px; padding-left:0;" mc:edit="preheader_content01"> Email not displaying correctly?<br />
 													<a href="*|ARCHIVE|*" target="_blank">View it in your browser</a>. </td>
 												<!-- *|END:IF|* --> 
 											</tr>
@@ -641,7 +647,7 @@ h4 {
 																	<table border="0" cellpadding="20" cellspacing="0" width="100%">
 																		<tbody>
 																			<tr>
-																				<td class="leftColumnContent"> <img src="img/salterns_marina_logo_white.png" width="258" height="131" class="columnImage" style="max-width:260px;" mc:label="left_column_image" mc:edit="left_column_image"> </td>
+																				<td class="leftColumnContent"> <img src="img/salterns_marina_logo_white.png" width="258" height="131" class="columnImage" style="max-width:260px;" mc:label="left_column_image" mc:edit="left_column_image" /> </td>
 																			</tr>
 																		</tbody>
 																	</table>
@@ -651,12 +657,12 @@ h4 {
 																		<tbody>
 																			<tr>
 																				<td class="rightColumnContent">
-																					<table style="max-width:260px; margin:auto;" border="0" cellspacing="0" cellpadding="0">
+																					<table style="max-width:260px; margin:auto;" border="0" cellspacing="0" cellpadding="5">
 																						<tbody>
 																							<tr>
-																								<td><img src="img/facebook_white.png" width="46" height="46" alt=""></td>
-																								<td><img src="img/google_white.png" width="46" height="46" alt=""></td>
-																								<td><img src="img/twitter_white.png" width="46" height="45" alt=""></td>
+																								<td><img src="img/facebook_white.png" width="46" height="46" alt="" /></td>
+																								<td><img src="img/google_white.png" width="46" height="46" alt="" /></td>
+																								<td><img src="img/twitter_white.png" width="46" height="45" alt="" /></td>
 																							</tr>
 																							<tr>
 																								<td colspan="3" class="telephone" style="color:#F4F4F4; text-align:center; padding-top:10px;"><a href="tel:+441202709971"><strong>T.&nbsp;01202&nbsp;709971</strong></a></td>
@@ -674,7 +680,7 @@ h4 {
 												</td>
 											</tr>
 											<tr>
-												<td valign="top" class="headerContent"> <img src="img/swinging_mooring.jpg" style="max-width:600px; text-decoration:none; color:#F4F4F4;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner="" mc:allowtext=""> </td>
+												<td valign="top" class="headerContent"> <img src="img/swinging_mooring.jpg" style="max-width:600px; text-decoration:none; color:#F4F4F4;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner="" mc:allowtext="" /> </td>
 											</tr>
 										</tbody>
 									</table>
@@ -687,11 +693,12 @@ h4 {
 									<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody">
 										<tbody>
 											<tr>
-												<td valign="top" class="bodyContent" mc:edit="body_content">
-													<h3 class="title" style="margin:0 14%;">Arguably the best location and value in Poole Harbour, with stunning views to Brownsea Island and the Purbeck Hills beyond.  Close access to Poole Harbour entrance.</h3>
-													<br>
-													<h4>Salterns Marina in the beautiful, sheltered waters of Poole Harbour.</h4>
-													This award winning marina offers more than any other marina within Poole Harbour, providing everything you need as a boat owner. </td>
+												<td valign="top" align="center" class="bodyContent" mc:edit="body_content">
+													<h3 class="title" style="margin:0 14%; text-align:center; line-height:1.2em;">Arguably the best location and value in Poole Harbour, with stunning views to Brownsea Island and the Purbeck Hills beyond.  Close access to Poole Harbour entrance.</h3>
+													<br />
+													<h3 style="text-align:center;"><strong>FREE ON-SITE PARKING * FULL MARINA FACILITIES</strong></h3>
+													<h4 style="text-align:center;">Salterns Marina in the beautiful, sheltered waters of Poole Harbour.</h4>
+													<p style="text-align:center;">This award winning marina offers more than any other marina within Poole Harbour, providing everything you need as a boat owner.</p></td>
 											</tr>
 										</tbody>
 									</table>
@@ -708,7 +715,7 @@ h4 {
 													<table border="0" cellpadding="20" cellspacing="0" width="100%">
 														<tbody>
 															<tr>
-																<td class="leftColumnContent"> <img src="img/header_placeholder_260px.png" style="max-width:260px;" class="columnImage" mc:label="left_column_image" mc:edit="left_column_image"> </td>
+																<td class="leftColumnContent"> <img src="img/marina01.jpeg" style="max-width:260px;" class="columnImage" mc:label="left_column_image" mc:edit="left_column_image" /> </td>
 															</tr>
 															<tr>
 																<td valign="top" class="leftColumnContent" mc:edit="left_column_content">
@@ -732,7 +739,7 @@ h4 {
 													<table border="0" cellpadding="20" cellspacing="0" width="100%">
 														<tbody>
 															<tr>
-																<td class="rightColumnContent"> <img src="img/header_placeholder_260px.png" style="max-width:260px;" class="columnImage" mc:label="right_column_image" mc:edit="right_column_image"> </td>
+																<td class="rightColumnContent"> <img src="img/marina02.jpeg" style="max-width:260px;" class="columnImage" mc:label="right_column_image" mc:edit="right_column_image" /> </td>
 															</tr>
 															<tr>
 																<td valign="top" class="rightColumnContent" mc:edit="right_column_content">
@@ -772,7 +779,7 @@ h4 {
 													<table border="0" cellpadding="20" cellspacing="0" width="100%">
 														<tbody>
 															<tr>
-																<td class="leftColumnContent"> <img src="img/sbs14-logo.jpg" class="columnImage logos" style="max-width:260px;" mc:label="left_column_image" mc:edit="left_column_image"> </td>
+																<td class="leftColumnContent"> <img src="img/sbs14-logo.jpg" class="columnImage logos" style="max-width:260px;" mc:label="left_column_image" mc:edit="left_column_image" /> </td>
 															</tr>
 														</tbody>
 													</table>
@@ -781,7 +788,7 @@ h4 {
 													<table border="0" cellpadding="20" cellspacing="0" width="100%">
 														<tbody>
 															<tr>
-																<td class="rightColumnContent"> <img src="img/tyha5goldanchors.jpg" class="columnImage logos" style="max-width:260px;" mc:label="right_column_image" mc:edit="right_column_image"> </td>
+																<td class="rightColumnContent"> <img src="img/tyha5goldanchors.jpg" class="columnImage logos" style="max-width:260px;" mc:label="right_column_image" mc:edit="right_column_image" /> </td>
 															</tr>
 														</tbody>
 													</table>
@@ -801,10 +808,10 @@ h4 {
 												<td valign="top" class="footerContent" mc:edit="footer_content00"> <a href="*|TWITTER:PROFILEURL|*">Follow on Twitter</a>&nbsp;&nbsp;&nbsp;<a href="*|FACEBOOK:PROFILEURL|*">Friend on Facebook</a>&nbsp;&nbsp;&nbsp;<a href="*|FORWARD|*">Forward to Friend</a>&nbsp; </td>
 											</tr>
 											<tr>
-												<td valign="top" class="footerContent" style="padding-top:0;" mc:edit="footer_content01"> <em>Copyright © *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em> <br>
-													*|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|* <br>
-													<br>
-													<strong>Our mailing address is:</strong> <br>
+												<td valign="top" class="footerContent" style="padding-top:0;" mc:edit="footer_content01"> <em>Copyright © *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em> <br />
+													*|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|* <br />
+													<br />
+													<strong>Our mailing address is:</strong> <br />
 													*|HTML:LIST_ADDRESS_HTML|* *|END:IF|* </td>
 											</tr>
 											<tr>
