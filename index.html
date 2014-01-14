@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<title>*|MC:SUBJECT|*</title>
+<title>Salterns Marina - January 2014</title>
 <style type="text/css">
 /* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
 #outlook a {
@@ -249,7 +249,14 @@ h4 {
 	max-width: 600px;
 }
 .logoContent {
-	background-color: #576979;
+	background-color: #323f4e;
+}
+.logo {
+	max-width: 200px !important;
+}
+.social {
+	width: 30px;
+	height: 30px;
 }
 .telephone a:link, .telephone a:visited, .telephone a {
 	color: #F4F4F4 !important;
@@ -264,14 +271,23 @@ h4 {
 			*/
 #templateBody {
 	/*@editable*/ background-color: #F4F4F4;
-	/*@editable*/ border-top: 1px solid #F4F4F4;
-	/*@editable*/ border-bottom: 1px solid #CCCCCC;
+	/* [disabled]border-top-width: 1px;
+*/
+	/* [disabled]border-top-style: solid;
+*/
+	/* [disabled]border-top-color: #F4F4F4;
+*/
+	/* [disabled]border-bottom-width: 1px;
+*/
+	/* [disabled]border-bottom-style: solid;
+*/
+	/* [disabled]border-bottom-color: #CCCCCC;
+*/
 }
-
 .title {
-	/* [disabled]margin: 20px 80px !important; */
+	/* [disabled]margin: 20px 80px !important;
+*/
 }
-
 /**
 			* @tab Body
 			* @section body text
@@ -285,8 +301,9 @@ h4 {
 	/*@editable*/ line-height: 150%;
 	padding-top: 20px;
 	padding-right: 20px;
-	padding-bottom: 20px;
 	padding-left: 20px;
+	/* [disabled]padding-bottom: 20px;
+*/
 	/*@editable*/ text-align: left;
 }
 /**
@@ -316,13 +333,16 @@ h4 {
 			*/
 #templateColumns {
 	/*@editable*/ background-color: #F4F4F4;
-	/*@editable*/ border-top: 1px solid #FFFFFF;
-	/*@editable*/ border-bottom: 1px solid #CCCCCC;
+	/*@editable*/ /* [disabled]border-top: 1px solid #FFFFFF;
+*/
+	/*@editable*/ /* [disabled]border-bottom: 1px solid #CCCCCC;
+*/
 }
 #templateColumnsTop {
-	/*@editable*/ background-color: #576979;
+	/*@editable*/ background-color: #323f4e;
 	/*@editable*/ border-top: 1px solid #FFFFFF;
-	/*@editable*/ /* [disabled]border-bottom: 1px solid #CCCCCC; */
+	/*@editable*/ /* [disabled]border-bottom: 1px solid #CCCCCC;
+*/
 }
 /**
 			* @tab Columns
@@ -334,10 +354,7 @@ h4 {
 	/*@editable*/ font-family: Helvetica;
 	/*@editable*/ font-size: 14px;
 	/*@editable*/ line-height: 150%;
-	padding-top: 0;
-	padding-right: 20px;
-	padding-bottom: 20px;
-	padding-left: 20px;
+	padding: 0 20px 20px;
 	/*@editable*/ text-align: left;
 }
 /**
@@ -350,7 +367,6 @@ h4 {
 	/*@editable*/ font-weight: normal;
 	/*@editable*/ text-decoration: underline;
 }
-
 /**
 			* @tab Columns
 			* @section right column text
@@ -361,10 +377,7 @@ h4 {
 	/*@editable*/ font-family: Helvetica;
 	/*@editable*/ font-size: 14px;
 	/*@editable*/ line-height: 150%;
-	padding-top: 0;
-	padding-right: 20px;
-	padding-bottom: 20px;
-	padding-left: 20px;
+	padding: 0 20px 20px;
 	/*@editable*/ text-align: left;
 }
 /**
@@ -377,11 +390,11 @@ h4 {
 	/*@editable*/ font-weight: normal;
 	/*@editable*/ text-decoration: underline;
 }
-.leftColumnContent img, .rightColumnContent img {
+/*.leftColumnContent img, .rightColumnContent img {
 	display: inline;
 	height: auto;
 	max-width: 260px;
-}
+}*/
 
 /* ========== Footer Styles ========== */
 
@@ -421,6 +434,10 @@ h4 {
 	/*@editable*/ color: #606060;
 	/*@editable*/ font-weight: normal;
 	/*@editable*/ text-decoration: underline;
+}
+.footer {
+	width: 90%;
+	margin: auto;
 }
 
 /* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
@@ -538,6 +555,14 @@ h4 {
 	/*@editable*/ max-width: 480px !important;
 	/*@editable*/ width: 100% !important;
 }
+.logo {
+	height: auto !important;
+	max-width: 200px !important;
+}
+.social {
+	width: 45px;
+	height: 45px;
+}
 /**
 				* @tab Mobile Styles
 				* @section left column text
@@ -594,6 +619,11 @@ h4 {
 	/*@editable*/ max-width: 480px !important;
 	/*@editable*/ width: 100% !important;
 }
+.logo {
+	height: auto !important;
+	/*@editable*/ max-width: 480px !important;
+	/*@editable*/ width: 100% !important;
+}
 .columnImage1 {
 	height: auto !important;
 	/*@editable*/ max-width: 480px !important;
@@ -603,6 +633,13 @@ h4 {
 	height: auto !important;
 	/*@editable*/ max-width: 480px !important;
 	/*@editable*/ width: 100% !important;
+}
+
+@media screen and (min-width:481px) {
+.logo {
+	max-width: 180px !important;
+	margin: 0 1em;
+}
 }
 </style>
 </head>
@@ -625,7 +662,7 @@ h4 {
 													75 Deep Water Swinging Moorings. Access via Salterns Marina.</td>
 												<!-- *|IFNOT:ARCHIVE_PAGE|* -->
 												<td valign="top" width="180" class="preheaderContent" style="padding-top:10px; padding-right:20px; padding-bottom:10px; padding-left:0;" mc:edit="preheader_content01"> Email not displaying correctly?<br />
-													<a href="*|ARCHIVE|*" target="_blank">View it in your browser</a>. </td>
+													<a href="http://www.salterns.co.uk/emails/2014/01/003/index.html" target="_blank">View it in your browser</a>. </td>
 												<!-- *|END:IF|* --> 
 											</tr>
 										</tbody>
@@ -647,7 +684,7 @@ h4 {
 																	<table border="0" cellpadding="20" cellspacing="0" width="100%">
 																		<tbody>
 																			<tr>
-																				<td class="leftColumnContent"> <img src="img/salterns_marina_logo_white.png" width="258" height="131" class="columnImage" style="max-width:260px;" mc:label="left_column_image" mc:edit="left_column_image" /> </td>
+																				<td class="leftColumnContent"> <img src="http://www.salterns.co.uk/emails/2014/01/003/img/salterns_marina_logo_white.png" class="logo" mc:label="left_column_image" mc:edit="left_column_image" /> </td>
 																			</tr>
 																		</tbody>
 																	</table>
@@ -660,9 +697,9 @@ h4 {
 																					<table style="max-width:260px; margin:auto;" border="0" cellspacing="0" cellpadding="5">
 																						<tbody>
 																							<tr>
-																								<td><img src="img/facebook_white.png" width="46" height="46" alt="" /></td>
-																								<td><img src="img/google_white.png" width="46" height="46" alt="" /></td>
-																								<td><img src="img/twitter_white.png" width="46" height="45" alt="" /></td>
+																								<td><img class="social" src="http://www.salterns.co.uk/emails/2014/01/003/img/facebook_white.png" alt="" /></td>
+																								<td><a href="https://plus.google.com/u/0/b/102765479384831722783/dashboard/overview" target="_blank"><img class="social" src="http://www.salterns.co.uk/emails/2014/01/003/img/google_white.png" alt="" /></a></td>
+																								<td><img class="social" src="http://www.salterns.co.uk/emails/2014/01/003/img/twitter_white.png" alt="" /></td>
 																							</tr>
 																							<tr>
 																								<td colspan="3" class="telephone" style="color:#F4F4F4; text-align:center; padding-top:10px;"><a href="tel:+441202709971"><strong>T.&nbsp;01202&nbsp;709971</strong></a></td>
@@ -680,7 +717,7 @@ h4 {
 												</td>
 											</tr>
 											<tr>
-												<td valign="top" class="headerContent"> <img src="img/swinging_mooring.jpg" style="max-width:600px; text-decoration:none; color:#F4F4F4;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner="" mc:allowtext="" /> </td>
+												<td valign="top" class="headerContent"> <img src="http://www.salterns.co.uk/emails/2014/01/003/img/swinging_mooring.jpg" style="max-width: 600px; text-decoration: none; color: #F4F4F4; border-top: 1px solid #FFFFFF;" id="headerImage" mc:label="header_image" mc:edit="header_image" mc:allowdesigner="" mc:allowtext="" /> </td>
 											</tr>
 										</tbody>
 									</table>
@@ -694,11 +731,12 @@ h4 {
 										<tbody>
 											<tr>
 												<td valign="top" align="center" class="bodyContent" mc:edit="body_content">
-													<h3 class="title" style="margin:0 14%; text-align:center; line-height:1.2em;">Arguably the best location and value in Poole Harbour, with stunning views to Brownsea Island and the Purbeck Hills beyond.  Close access to Poole Harbour entrance.</h3>
+													<h3 class="title" style="margin: 10px 14% 0; text-align: center; line-height: 1.2em;">Arguably the best location and value in Poole Harbour, with stunning views to Brownsea Island and the Purbeck Hills beyond.  Close access to Poole Harbour entrance.</h3>
 													<br />
 													<h3 style="text-align:center;"><strong>FREE ON-SITE PARKING * FULL MARINA FACILITIES</strong></h3>
 													<h4 style="text-align:center;">Salterns Marina in the beautiful, sheltered waters of Poole Harbour.</h4>
-													<p style="text-align:center;">This award winning marina offers more than any other marina within Poole Harbour, providing everything you need as a boat owner.</p></td>
+													<p style="text-align:center;">This award winning marina offers more than any other marina within Poole Harbour, providing everything you need as a boat owner.</p>
+												</td>
 											</tr>
 										</tbody>
 									</table>
@@ -715,7 +753,7 @@ h4 {
 													<table border="0" cellpadding="20" cellspacing="0" width="100%">
 														<tbody>
 															<tr>
-																<td class="leftColumnContent"> <img src="img/marina01.jpeg" style="max-width:260px;" class="columnImage" mc:label="left_column_image" mc:edit="left_column_image" /> </td>
+																<td class="leftColumnContent"> <img src="http://www.salterns.co.uk/emails/2014/01/003/img/marina01.jpeg" style="max-width:260px;" class="columnImage" mc:label="left_column_image" mc:edit="left_column_image" /> </td>
 															</tr>
 															<tr>
 																<td valign="top" class="leftColumnContent" mc:edit="left_column_content">
@@ -739,7 +777,7 @@ h4 {
 													<table border="0" cellpadding="20" cellspacing="0" width="100%">
 														<tbody>
 															<tr>
-																<td class="rightColumnContent"> <img src="img/marina02.jpeg" style="max-width:260px;" class="columnImage" mc:label="right_column_image" mc:edit="right_column_image" /> </td>
+																<td class="rightColumnContent"> <img src="http://www.salterns.co.uk/emails/2014/01/003/img/marina02.jpeg" style="max-width:260px;" class="columnImage" mc:label="right_column_image" mc:edit="right_column_image" /> </td>
 															</tr>
 															<tr>
 																<td valign="top" class="rightColumnContent" mc:edit="right_column_content">
@@ -765,21 +803,21 @@ h4 {
 									<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody">
 										<tbody>
 											<tr>
-												<td valign="top" class="bodyContent" mc:edit="body_content">																														<p>All mooring customers have the option of using our Boatyard Services including lift out, pressure wash and winter laying up package.  Please let us know if you’d like a quotation. As a boat owner you will find everything you need with our on-site facilities, including a chandlery, boatyard services &amp; hoist, plus waterside hotel.</p>
- </td>
+												<td valign="top" class="bodyContent" mc:edit="body_content">
+													<p>All mooring customers have the option of using our Boatyard Services including lift out, pressure wash and winter laying up package.  Please let us know if you’d like a quotation. As a boat owner you will find everything you need with our on-site facilities, including a chandlery, boatyard services &amp; hoist, plus waterside hotel.</p>
+												</td>
 											</tr>
 										</tbody>
 									</table>
 									<!-- BEGIN COLUMNS // -->
 									<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateColumns">
-									
 										<tbody>
 											<tr mc:repeatable="">
 												<td align="center" valign="top" class="templateColumnContainer" style="padding-top:20px;">
 													<table border="0" cellpadding="20" cellspacing="0" width="100%">
 														<tbody>
 															<tr>
-																<td class="leftColumnContent"> <img src="img/sbs14-logo.jpg" class="columnImage logos" style="max-width:260px;" mc:label="left_column_image" mc:edit="left_column_image" /> </td>
+																<td class="leftColumnContent"> <img src="http://www.salterns.co.uk/emails/2014/01/003/img/sbs14-logo.jpg" class="columnImage logos" style="max-width:260px;" mc:label="left_column_image" mc:edit="left_column_image" /> </td>
 															</tr>
 														</tbody>
 													</table>
@@ -788,7 +826,7 @@ h4 {
 													<table border="0" cellpadding="20" cellspacing="0" width="100%">
 														<tbody>
 															<tr>
-																<td class="rightColumnContent"> <img src="img/tyha5goldanchors.jpg" class="columnImage logos" style="max-width:260px;" mc:label="right_column_image" mc:edit="right_column_image" /> </td>
+																<td class="rightColumnContent"> <img src="http://www.salterns.co.uk/emails/2014/01/003/img/tyha5goldanchors.jpg" class="columnImage logos" style="max-width:260px;" mc:label="right_column_image" mc:edit="right_column_image" /> </td>
 															</tr>
 														</tbody>
 													</table>
@@ -802,22 +840,90 @@ h4 {
 							<tr>
 								<td align="center" valign="top"> 
 									<!-- BEGIN FOOTER // -->
-									<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter">
-										<tbody>
-											<tr>
-												<td valign="top" class="footerContent" mc:edit="footer_content00"> <a href="*|TWITTER:PROFILEURL|*">Follow on Twitter</a>&nbsp;&nbsp;&nbsp;<a href="*|FACEBOOK:PROFILEURL|*">Friend on Facebook</a>&nbsp;&nbsp;&nbsp;<a href="*|FORWARD|*">Forward to Friend</a>&nbsp; </td>
-											</tr>
-											<tr>
-												<td valign="top" class="footerContent" style="padding-top:0;" mc:edit="footer_content01"> <em>Copyright © *|CURRENT_YEAR|* *|LIST:COMPANY|*, All rights reserved.</em> <br />
-													*|IFNOT:ARCHIVE_PAGE|* *|LIST:DESCRIPTION|* <br />
-													<br />
-													<strong>Our mailing address is:</strong> <br />
-													*|HTML:LIST_ADDRESS_HTML|* *|END:IF|* </td>
-											</tr>
-											<tr>
-												<td valign="top" class="footerContent" style="padding-top:0;" mc:edit="footer_content02"> <a href="*|UNSUB|*">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;<a href="*|UPDATE_PROFILE|*">update subscription preferences</a>&nbsp; </td>
-											</tr>
-										</tbody>
+									<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#323f4e">
+										<tr>
+											<td valign="top"><!-- FOOTER -->
+												
+												<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" class="footer">
+													<tr>
+														<td>
+															<table width="" border="0" cellspacing="0" cellpadding="0" align="left" class="footer_column" style="margin:0px 10px;">
+																<tr>
+																	<td>&nbsp;</td>
+																</tr>
+																<tr>
+																	<td valign="top" style="font-family:'Open Sans', Source Sans Pro, arial, verdana, tahoma; font-size:14px; line-height:30px; color:#ffffff;"><a href="http://www.salternsbrokerage.co.uk" target="_blank" style="color:#ffffff; text-decoration:none;">www.salterns.co.uk</a><br />
+																		<a href="mailto:info@Salterns.co.uk" target="_blank" style="color:#ffffff; text-decoration:none;">info@Salterns.co.uk</a><br />
+																		<a href="tel:+441202709971" style="color:#ffffff; text-decoration:none;">+44&nbsp;01202&nbsp;709971</a></td>
+																</tr>
+															</table>
+															<table width="" border="0" cellspacing="0" cellpadding="0" align="right" class="two_third">
+																<tr>
+																	<td>
+																		<table width="" border="0" cellspacing="0" cellpadding="0" align="left" class="footer_column" style="margin:0 10px;">
+																			<tr>
+																				<td>&nbsp;</td>
+																			</tr>
+																			<tr>
+																				<td valign="top" style="font-family:'Open Sans', Source Sans Pro, arial, verdana, tahoma; font-size:14px; line-height:30px;"><a href="http://www.salternsbrokerage.co.uk" target="_blank" style="color:#ffffff; text-decoration:none;">Our Products<br />
+																					Our Services<br />
+																					About Company </a></td>
+																			</tr>
+																		</table>
+																		<table width="" border="0" cellspacing="0" cellpadding="0" align="right" class="footer_column" style="margin:0 10px;">
+																			<tr>
+																				<td>&nbsp;</td>
+																			</tr>
+																			<tr>
+																				<td valign="top" height="35" style="font-family:'Open Sans', Source Sans Pro, arial, verdana, tahoma; font-size:20px; font-weight:600; color:#ffffff;">Follow Us</td>
+																			</tr>
+																			<tr>
+																				<td><a href="https://www.facebook.com/pages/Salterns-Brokerage/147010022015191" target="_blank"><img src="http://www.salterns.co.uk/emails/2014/01/003/img/facebook_footer.png" alt="facebook" style="border:none;" /></a> &nbsp; <a href="https://twitter.com/SalternsBrokers" target="_blank"><img src="http://www.salterns.co.uk/emails/2014/01/003/img/twitter_footer.png" alt="twitter" style="border:none;" /></a> &nbsp; <a href="https://plus.google.com/u/0/111629532523380409750/posts" target="_blank"><img src="http://www.salterns.co.uk/emails/2014/01/003/img/google_footer.png" alt="google" style="border:none;" /></a></td>
+																			</tr>
+																			<tr>
+																				<td>&nbsp;</td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<table width="" cellspacing="0" cellpadding="0" align="center" class="footer">
+													<tr>
+														<td style="font-family:'Open Sans', Source Sans Pro, arial, verdana, tahoma; font-size:14px; color:#ffffff; text-decoration:none; padding:5px;"> Salterns Marina is part of the Salterns Marina Ltd group of companies </td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td valign="middle" style="border-top:5px solid #344250; background-color:#e6ecf3;">
+												<table border="0" cellspacing="0" cellpadding="0" align="center" class="footer">
+													<tr>
+														<td>
+															<table border="0" cellspacing="0" cellpadding="0" align="left" class="copyright">
+																<tr>
+																	<td height="40" valign="middle" style="font-family:'Open Sans', Source Sans Pro, arial, verdana, tahoma; font-size:14px; color:#323f4e;">© 2013, <a style="color:#color:#323f4e; text-decoration:none;" href="http://www.salternsbrokerage.co.uk">Salterns Marina</a></td>
+																</tr>
+															</table>
+															<table width="" border="0" cellspacing="0" cellpadding="0" align="right" class="unsubscribe">
+																<tr>
+																	<td valign="middle" height="40" style="font-family:'Open Sans', Source Sans Pro, arial, verdana, tahoma; font-size:14px; color:#323f4e;">Don't want to receive emails? <a href="mailto:unsubscribe.cranchi@salterns.co.uk" target="_blank" style="color:#323f4e; text-decoration:none; font-weight:700;">Unsubscribe</a> here</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td style="background-color:#e6ecf3;">&nbsp;</td>
+										</tr>
 									</table>
 									<!-- // END FOOTER --> 
 								</td>
